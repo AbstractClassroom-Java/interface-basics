@@ -1,9 +1,14 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Car myJeep = new Car();
+        myJeep.setColor("orange");
+        myJeep.setIsConvertible(true);
+        myJeep.setVin("TITITITSKSKKGNALALKJASFLKJAEF");
+        myJeep.setNumSeats(5);
+        System.out.println(myJeep);
+        myJeep.makeEngineNoise();
 
     }
 }
